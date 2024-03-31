@@ -18,9 +18,9 @@ const Recommended = ({ handleClick, handleChange }) => {
         <div>
           <select
             onChange={handleChange}
-            className="py-2 px-4 border border-gray-300 rounded-lg mt-4 mr-4 cursor-pointer opacity-[0.9]"
+            className="py-2 px-4 border border-gray-300 rounded-lg mt-4 mr-4 cursor-pointer opacity-[0.9] "
           >
-            <option value="" className="z-[1]">
+            <option value="">
               Sort by
             </option>
             {options.map((option) => (

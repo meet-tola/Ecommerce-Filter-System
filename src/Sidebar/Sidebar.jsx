@@ -22,9 +22,10 @@ const Sidebar = ({ handleChange }) => {
         </div>
       </div>
       {/* Dropdown sidebar for smaller screens */}
-      <div className="w-full fixed z-10 lg:hidden md:mt-2">
+      <div className="w-full fixed lg:hidden md:mt-2 z-[999] bg-gray-800">
+        <div>
         <button
-          className="w-full py-4 px-6 mt-10 bg-gray-800 text-white text-left flex justify-between items-center"
+          className="w-full py-4 px-6 mt-10 text-white text-left flex justify-between items-center"
           onClick={toggleDropdown}
         >
           <span className="font-bold">Categories</span>
@@ -45,6 +46,7 @@ const Sidebar = ({ handleChange }) => {
             />
           </svg>
         </button>
+          </div>
         <div
           className={`${
             isOpen ? "block" : "hidden"

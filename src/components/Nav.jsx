@@ -3,7 +3,7 @@ import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
 
 const Nav = ({ handleInputChange }) => {
   return (
-    <nav className="flex border-b-2 fixed w-full bg-white border-[#f3f3f3] px-4 sm:px-6 py-3 sm:py-4 justify-between items-center">
+    <nav className="flex border-b-2 fixed w-full bg-white border-[#f3f3f3] px-4 sm:px-6 py-3 sm:py-4 justify-between items-center z-[9999]">
       <div className="flex items-center">
         <h1 className="text-lg mr-3 sm:text-xl font-bold">LetShop</h1>
       </div>
