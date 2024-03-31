@@ -25,12 +25,12 @@ const Card = ({ img, title, star, reviews, newPrice, prevPrice }) => {
             <del className="text-[16px] font-normal">{prevPrice}</del>{" "}
             {newPrice}
           </div>
-          <div onClick={handleLike} className="cursor-pointer">
+          <div onClick={handleLike} className="cursor-pointer z-[1] pointer-events-auto">
             {liked ? (
               <FaHeart className="text-[24px] md:text-[20px] text-red-500 transition-colors duration-300" />
             ) : (
               <FiHeart className="text-[#535353] text-[24px] md:text-[20px] transition-colors duration-300" />
-            )}{" "}
+            )}
           </div>
         </div>
       </div>
