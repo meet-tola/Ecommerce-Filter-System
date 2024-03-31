@@ -13,7 +13,7 @@ const Price = ({ handleChange }) => {
             onChange={handleChange}
             type="radio"
             value=""
-            name="test"
+            name="test2"
           />
           <span className="checkmark"></span> All
         </label>
